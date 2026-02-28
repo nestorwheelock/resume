@@ -131,7 +131,7 @@ St. Louis, MO | ~2005 – 2006
 
 ## Education
 
-**Washington University in St. Louis**
+**Washington University in St. Louis** (Top 10, U.S. News at time of graduation)
 Bachelor of Arts — English Literature, Minor in History
 Coursework in Philosophy (ethics and problem-solving frameworks)
 
