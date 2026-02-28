@@ -7,7 +7,7 @@ Cancun, QR, Mexico | [email] | [phone] | [GitHub URL] | [LinkedIn URL]
 
 ## Professional Summary
 
-Systems architect and security consultant who designed and built a 78-crate Rust framework spanning 9 architectural layers for enterprise application development. Background in medical research software, infrastructure hardening, and full-stack web development. Builds production systems with compile-time safety guarantees, zero unsafe code, and PostgreSQL-native persistence. Degree in English Literature from Washington University in St. Louis. Legally authorized to work in Mexico; available for remote engagements.
+Systems architect and security consultant who designed and built a 78-crate Rust framework spanning 9 architectural layers for enterprise application development. Prototyped domain models across 21 Django applications — extracting reusable packages for multi-tenancy, accounting, scheduling, and CRM — then rewrote the entire ecosystem in Rust for compile-time safety, zero unsafe code, and PostgreSQL-native persistence. Degree in English Literature from Washington University in St. Louis, combined with 20 years of reading and writing software, provides a distinct edge in LLM-driven development: precise plain-language specification, effective prompt engineering, and clear technical documentation as the human in the loop. Legally authorized to work in Mexico; available for remote engagements.
 
 ---
 
@@ -15,6 +15,9 @@ Systems architect and security consultant who designed and built a 78-crate Rust
 
 **Rust & Systems**
 Async (Tokio), trait-based architecture, procedural macros, newtype patterns, compile-time invariant enforcement, zero unsafe code policy, WASM (wasm-bindgen, Wasmtime), binary optimization (LTO, strip)
+
+**Python & Django**
+Django 5.x/6.x, Django REST Framework, Celery/Redis task queues, Django Channels (WebSockets), Wagtail CMS, HTMX, pytest (87%+ coverage on production projects), extractable pip-installable package architecture, multi-tenant SaaS patterns, Stripe integration, AI/LLM integration via OpenRouter
 
 **Web & API**
 Axum 0.7, Leptos 0.6 (CSR/SSR), Tower middleware, WebSockets, Askama templates, REST API design, real-time communication
@@ -31,8 +34,11 @@ Domain-driven design, layered architecture with compile-time boundary enforcemen
 **Infrastructure**
 Linux/Unix administration, Docker, S3-compatible object storage, background job queues, rate limiting, health checks, telemetry, structured logging (tracing)
 
+**LLM-Driven Development**
+Precise plain-language specification for AI-assisted code generation, prompt engineering, human-in-the-loop workflow design, intent-driven automation, technical documentation informed by a liberal arts background and decades of reading open-source software
+
 **Other Languages**
-Bash, PHP (earlier career), JavaScript/TypeScript (frontend integration)
+Bash, PHP (earlier career), JavaScript/TypeScript, Flask
 
 **Languages**
 English (native), working knowledge of Spanish
@@ -62,6 +68,16 @@ Full-stack multi-tenant platform: Axum REST API, Leptos CSR staff portal, custom
 ### barter-rs — Financial Trading Framework
 
 High-performance trading system with 6 crates: core framework, market data feeds, order execution, exchange integrations, financial instruments, and procedural macros. Decimal-precision arithmetic, cryptographic exchange signatures, WebSocket streaming, and criterion benchmarking.
+
+### Django Prototyping Ecosystem — 21 Applications, 23 Extractable Packages
+
+Rapid-prototyped domain models across 21 Django applications to validate business logic before rewriting in Rust. Extracted 23 reusable pip-installable packages (django-basemodels, django-parties, django-accounting, django-appointments, django-inventory, django-multilingual, and more) that mirror the architecture of rust-primitives. Key applications include:
+
+- **FleetFlow** — Multi-tenant car rental SaaS with AI-powered OCR (license/insurance scanning, damage detection), Celery task queues, 368 tests at 87% coverage
+- **Procurement Scraper** — Distributed government procurement intelligence with self-hosted instances, embedded AI processing, and bidirectional sync to a central cache
+- **Bruno Health Tracker** — Veterinary cancer treatment quality-of-life tracker using validated clinical assessment instruments (CBPI, CORQ, VCOG-CTCAE)
+- **Buceo Feliz** — Dive operations platform with digital agreements, e-signatures, medical questionnaires, and invoicing
+- **Business Hub** — Integration test harness demonstrating all 23 extracted packages running together
 
 ### WordPress Security Audit Tooling
 
