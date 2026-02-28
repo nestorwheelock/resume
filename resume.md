@@ -7,7 +7,7 @@ Cancun, QR, Mexico | [email] | [phone] | [GitHub URL] | [LinkedIn URL]
 
 ## Professional Summary
 
-Systems architect and security consultant who designed and built a 78-crate Rust framework spanning 9 architectural layers for enterprise application development. Prototyped domain models across 21 Django applications — extracting reusable packages for multi-tenancy, accounting, scheduling, and CRM — then rewrote the entire ecosystem in Rust for compile-time safety, zero unsafe code, and PostgreSQL-native persistence. Degree in English Literature from Washington University in St. Louis, combined with 20 years of reading and writing software, provides a distinct edge in LLM-driven development: precise plain-language specification, effective prompt engineering, and clear technical documentation as the human in the loop. Legally authorized to work in Mexico; available for remote engagements.
+I design and build enterprise software in Rust. I wrote a 78-crate framework spanning 9 architectural layers, after prototyping the domain models across 21 Django applications — extracting reusable packages for multi-tenancy, accounting, scheduling, and CRM — then rewriting the entire ecosystem in Rust for compile-time safety, zero unsafe code, and PostgreSQL-native persistence. My degree in English Literature from Washington University in St. Louis, combined with 20 years of reading and writing software, gives me a distinct edge in LLM-driven development: I write precise plain-language specifications, engineer effective prompts, and produce clear technical documentation as the human in the loop. I'm legally authorized to work in Mexico and available for remote engagements.
 
 ---
 
@@ -47,31 +47,31 @@ English (native), working knowledge of Spanish
 
 ## Selected Projects
 
-### rust-primitives — Enterprise Application Framework
+### rust-primitives — Enterprise Application Framework (Most Ambitious Project)
 
-78 composable Rust crates organized across 9 architectural layers (Foundation, Identity, Domain, Content, Infrastructure, Operations, Data, Observability, Platform). Implements the 10 ERP primitives (Party, Catalog, Ledger, Encounter, Decision, Worklog, RBAC, Audit, Singleton, Modules) plus 68 additional domain models. Features compile-time layer dependency enforcement, PostgreSQL-native persistence with checked queries, and a strict no-cross-crate-import rule for loose coupling. Proprietary.
+My most ambitious project so far. I built 78 composable Rust crates organized across 9 architectural layers (Foundation, Identity, Domain, Content, Infrastructure, Operations, Data, Observability, Platform). It implements the 10 ERP primitives (Party, Catalog, Ledger, Encounter, Decision, Worklog, RBAC, Audit, Singleton, Modules) plus 68 additional domain models. I enforce compile-time layer dependency boundaries, PostgreSQL-native persistence with checked queries, and a strict no-cross-crate-import rule for loose coupling. Proprietary.
 
 **Key crates include:** multi-tenant auth and RBAC, double-entry ledger, state machine workflows, capacity-based reservations, RFC5545 calendar recurrence, multi-channel notifications, offline-first sync protocol, and a WAF with honeypots.
 
 ### Universal Service Daemon (USD)
 
-Cross-platform service management daemon compiled for Linux, FreeBSD, macOS, and Windows. 46+ modules covering security, monitoring, networking, backups, and VM management. WASM module runtime (Wasmtime), WebSocket API, E2E encryption (x25519-dalek + ChaCha20-Poly1305), PTY terminal emulation, and SQLite/PostgreSQL state persistence. Binary-optimized with LTO.
+I wrote a cross-platform service management daemon compiled for Linux, FreeBSD, macOS, and Windows. It has 46+ modules covering security, monitoring, networking, backups, and VM management. I built it with a WASM module runtime (Wasmtime), WebSocket API, E2E encryption (x25519-dalek + ChaCha20-Poly1305), PTY terminal emulation, and SQLite/PostgreSQL state persistence. Binary-optimized with LTO.
 
 ### Plumber — Market Research Automation
 
-Business intelligence tool with HTML scraping (robots.txt-compliant), DNS resolution, TLS/SSL certificate inspection, file hashing (SHA-256, MD5), gzip archival, and real-time WebSocket task delivery. PostgreSQL persistence with JSON column types. Uses 26 rust-primitives crates.
+I built a business intelligence tool with HTML scraping (robots.txt-compliant), DNS resolution, TLS/SSL certificate inspection, file hashing (SHA-256, MD5), gzip archival, and real-time WebSocket task delivery. PostgreSQL persistence with JSON column types. Uses 26 of my rust-primitives crates.
 
 ### Scuba Fill Station — Dive Shop Management Platform
 
-Full-stack multi-tenant platform: Axum REST API, Leptos CSR staff portal, customer portal, and marketing site. Domain modeling for dive operations using 45+ primitives crates. Workspace architecture with clean separation between domain, application, API, and UI layers.
+I built a full-stack multi-tenant platform: Axum REST API, Leptos CSR staff portal, customer portal, and marketing site. I modeled dive operations using 45+ of my primitives crates, with clean separation between domain, application, API, and UI layers.
 
 ### barter-rs — Financial Trading Framework
 
-High-performance trading system with 6 crates: core framework, market data feeds, order execution, exchange integrations, financial instruments, and procedural macros. Decimal-precision arithmetic, cryptographic exchange signatures, WebSocket streaming, and criterion benchmarking.
+I built a high-performance trading system with 6 crates: core framework, market data feeds, order execution, exchange integrations, financial instruments, and procedural macros. It uses decimal-precision arithmetic, cryptographic exchange signatures, WebSocket streaming, and criterion benchmarking.
 
 ### Django Prototyping Ecosystem — 21 Applications, 23 Extractable Packages
 
-Rapid-prototyped domain models across 21 Django applications to validate business logic before rewriting in Rust. Extracted 23 reusable pip-installable packages (django-basemodels, django-parties, django-accounting, django-appointments, django-inventory, django-multilingual, and more) that mirror the architecture of rust-primitives. Key applications include:
+I rapid-prototyped domain models across 21 Django applications to validate business logic before rewriting in Rust. I extracted 23 reusable pip-installable packages (django-basemodels, django-parties, django-accounting, django-appointments, django-inventory, django-multilingual, and more) that mirror the architecture of rust-primitives. Key applications include:
 
 - **FleetFlow** — Multi-tenant car rental SaaS with AI-powered OCR (license/insurance scanning, damage detection), Celery task queues, 368 tests at 87% coverage
 - **Procurement Scraper** — Distributed government procurement intelligence with self-hosted instances, embedded AI processing, and bidirectional sync to a central cache
@@ -81,7 +81,7 @@ Rapid-prototyped domain models across 21 Django applications to validate busines
 
 ### WordPress Security Audit Tooling
 
-Methodology for passive reconnaissance of WordPress installations — source code analysis, plugin version enumeration, and CVE correlation — followed by controlled lab replication to verify exploitability. Produces actionable vulnerability reports with remediation steps and automated patching.
+I developed a methodology for passive reconnaissance of WordPress installations — source code analysis, plugin version enumeration, and CVE correlation — followed by controlled lab replication to verify exploitability. I produce actionable vulnerability reports with remediation steps and automated patching.
 
 ### Additional Projects
 
@@ -106,7 +106,7 @@ Mexico (Remote) | 2022 – Present
 Cancun, Mexico | 2020 – Present
 
 - Certified PADI instructor leading recreational and training dives
-- Client-facing communication, safety management, and logistical coordination in a bilingual environment
+- Handle client-facing communication, safety management, and logistical coordination in a bilingual environment
 
 ### Owner — Computer Repair & IT Services
 St. Louis, MO | ~2010 – 2020
@@ -125,7 +125,7 @@ St. Louis, MO | ~2006 – 2010
 ### Customer Service — Quava Cordover Marketing Services, Inc.
 St. Louis, MO | ~2005 – 2006
 
-- Entry-level corporate role; met future business partner, leading to co-founding of software venture
+- Entry-level corporate role; met future business partner, leading to co-founding a software venture
 
 ---
 
@@ -146,4 +146,4 @@ Coursework in Philosophy (ethics and problem-solving frameworks)
 
 ## Approach
 
-Solutions are built on a 78-crate Rust framework with compile-time enforced layer boundaries and strict separation of concerns. Every domain model follows established patterns: UUID primary keys, soft delete, append-only audit trails, and typed errors. Clients retain full ownership and portability of their data. External developers interact through a documented API, maintaining security and architectural integrity. Zero unsafe code. All invariants enforced in both Rust's type system and PostgreSQL constraints.
+I build solutions on my 78-crate Rust framework with compile-time enforced layer boundaries and strict separation of concerns. Every domain model follows established patterns: UUID primary keys, soft delete, append-only audit trails, and typed errors. My clients retain full ownership and portability of their data. External developers interact through a documented API, maintaining security and architectural integrity. I write zero unsafe code. I enforce all invariants in both Rust's type system and PostgreSQL constraints.
